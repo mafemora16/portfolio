@@ -1,0 +1,192 @@
+/* Mobile responsive */
+@media only screen and (max-width: 414px) {
+
+    img {
+        width: 100%;
+    }
+    header {
+        padding-left: 16px;
+    }
+
+    #navbar-mobile {
+        display: none;
+    }
+    
+    .Intro {
+        background-image: url(../Images/Background_mobile.png);
+        background-size: cover;
+        padding-top: 48px;
+        padding-bottom: 0px;
+    }
+
+    .Iam {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .WhoAmI {
+        margin-left: 16px;
+        padding-top: 32px;
+        padding-right: 16px;
+    }
+
+    .Projects {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    h1,h2 {
+        font-family: 'Domine', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    p, ul {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 8px;
+        margin-top: 8px;
+    }
+
+    .Brief-Description {
+        width: 90%;
+        margin-bottom: 24px;
+    }
+
+    .iphone {
+        background-image: url(../Images/Iphone_mobileversion.png);
+        width: 374px;
+        height: 557px;  
+        display: flex;
+        align-items: center;
+        padding-bottom: 16px;
+    }    
+
+    h3 {
+        font-size: 24px;
+        line-height: 29px;
+    }   
+    
+    .Projects {
+        padding: 0px 16px;
+    }
+
+    .project-container {
+        flex-wrap: wrap;
+        gap: 8px;
+        justify-content: center;
+    }
+
+    .ProjectCard {
+        padding: 16px;
+        background: #FFF7FF;
+        box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.25);
+        border-radius: 16px;
+        width: 344px;
+        min-height: 638px;
+        margin-bottom: 64px;
+    }
+
+    .ProjectCard img {
+        width: 100%;
+    }
+
+    .ProjectDescription {
+        padding: 16px 16px;
+        width: 344px;
+        min-height: 120px;
+        margin-bottom: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        overflow: hidden;
+    }
+
+    .paragraph-description {
+        height: 90%;
+        display: flex;
+        align-items: center;
+    }
+
+    .image-container {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 90%;
+        gap: 8px;
+    
+    }
+
+    .AboutMe {
+        margin: 0%;
+        padding: 16px 16px;
+    }  
+
+    .Hi  {
+        flex-wrap: wrap;
+        gap: 16px;
+        margin-bottom: 32px;
+        }
+
+        .Name {
+            font-size: 40px;
+            line-height: 46px;
+        }
+
+    #MafeMora {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .image-hi {
+        display: none;
+    }
+    .skills {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 32px;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .logo-footer {
+        width: 128px;
+        height: 32px;
+        margin: 0px;
+    }
+
+    .info {
+        width: 90%;
+        align-items: center;
+        gap: 18px;
+    }
+
+    .nav-down-bar {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .legal {
+        display: flex;
+        align-items: center;
+        order: 1;
+    }
+
+    .mafe-contactinfo, .nav-down-bar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        margin-bottom: 24px;
+    }
+    
+
+}
+
+  
